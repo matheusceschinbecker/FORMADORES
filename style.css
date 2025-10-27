@@ -1,0 +1,16 @@
+body  {	
+ font-family: sans-serif;
+ color: rgb(0, 216, 65);
+ background-color: black;
+}
+header{
+text-align: center;
+}
+span{
+  background-color: rgb(145, 109, 179);
+  color: white;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 0px 5px 15px;
+}
