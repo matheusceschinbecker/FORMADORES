@@ -2,10 +2,26 @@ body  {
  font-family: sans-serif;
  color: rgb(0, 216, 65);
  background-color: black;
+  padding: 5px;
+
 }
 header{
 text-align: center;
 }
+main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column; /* empilha o título e os projetos */
+  align-items: center; /* opcional — centraliza tudo */
+}
+section{
+ display: flex;
+ justify-content: center;
+}
+img{
+  width: 200px;
+}
+
 span{
   background-color: rgb(145, 109, 179);
   color: white;
@@ -13,4 +29,10 @@ span{
   border: 1px solid black;
   border-radius: 5px;
   margin: 10px 0px 5px 15px;
+}
+div{
+  border: 1px rgb(255, 255, 255) solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
 }
